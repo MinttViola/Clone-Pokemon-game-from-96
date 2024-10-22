@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04296f9dda862114b9e98cd139df1adf, type: 3}
+  m_Name: 016- Pidgey
+  m_EditorClassIdentifier: 
+  name: Pidgey
+  description: Does not like to fight. It hides in tall grass and so on, foraging
+    for food such as small bugs.
+  frontSprite: {fileID: 21300000, guid: 0640f96153b3076468e1ed923954e1fe, type: 3}
+  backSprite: {fileID: 21300000, guid: 19dffa2f33207114a979a252c7decc34, type: 3}
+  miniPokeAnim:
+  - {fileID: 2038669663, guid: 234b61440d80db443a9075ccd566dc9c, type: 3}
+  - {fileID: -785033953, guid: 234b61440d80db443a9075ccd566dc9c, type: 3}
+  type1: 1
+  type2: 10
+  maxHP: 40
+  attack: 45
+  defense: 40
+  spAttack: 35
+  spDefense: 35
+  speed: 56
+  expYield: 50
+  growthRate: 2
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 535ad888fdbca3f4bb74f1a0d5a1c70b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 70c7ed80e5e4e46408befb2a886cf2d7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: de7b69afc14926d4d9c4c2238a85f097, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 5ec6ae1fa4ffd874c94d35172ca4e1ed, type: 2}
+    level: 13
